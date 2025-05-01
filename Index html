@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حزب بليتش الأعظم - اختبار الكيمياء</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="quiz-container">
+      <h1>حزب بليتش الأعظم</h1>
+      <p id="username">بواسطة: بنهادي</p>
+      <div id="question-container"></div>
+      <div id="options-container"></div>
+      <button id="next-button" onclick="nextQuestion()">التالي</button>
+    </div>
+    <div id="result-container" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
